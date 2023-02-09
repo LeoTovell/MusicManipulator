@@ -18,3 +18,8 @@ def transposeNote(note: str, semitones: int) -> str:
         return notesFlat[(notesFlat.index(note) + semitones) % len(notesFlat)]
     else:
         return notesSharp[(notesSharp.index(note) + semitones) % len(notesSharp)]
+
+def findKey(notes: list):
+    # Is valid notes? Do they follow the pattern T T s T T T s?
+    # if key
+    pass
